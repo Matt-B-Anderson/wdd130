@@ -17,7 +17,7 @@ aside {
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
     background-color: darkred;
-    color: whitesmoke;
+    color: whitesmoke; /* hi */
     text-align: center;
 }
 
