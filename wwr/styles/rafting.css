@@ -10,7 +10,7 @@
 
 body {
     width: 100vw;
-    background-color: #1a181b;
+    background-color: #f0f0f0;
 }
 
 header {
@@ -64,8 +64,7 @@ p {
 
 .hero h1 {
     text-align: center;
-    background-color: rgb(0 0 0 / 75%);
-    background-size: cover;
+    background-color: rgb(0 0 0);
     width: 100%;
     float: inline-start;
     position: absolute;
@@ -113,6 +112,10 @@ p {
     height: 200px;
 }
 
+.history > :nth-child(n+2):nth-child(-n+4) {
+    background-color: rgb(0 0 0);
+}
+
 .adventure-pics {
     display: grid;
     grid-template-rows: auto 1fr;
@@ -138,12 +141,23 @@ p {
 figcaption {
     text-align: center;
     color: var(--secondary-color);
+    background-color: rgb(0 0 0 / 90%);
 }
 
 footer {
     display: grid;
     grid-template-columns: .85fr .05fr .05fr .05fr;
     justify-content: center;
+}
+
+footer p {
+    background-color: rgb(0 0 0 / 90%);
+    margin-right: 10px;
+}
+
+footer a {
+    display: flex;
+    align-items: center;
 }
 
 footer a img {
