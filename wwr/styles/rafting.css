@@ -9,7 +9,31 @@
 }
 
 body {
-    width: 1080px;
+    width: 1920;
+    background-color: #1a181b;
+}
+
+header {
+    display: grid;
+    grid-auto-flow: column;
+    width: auto;
+    height: 220px;
+    justify-content: space-around;
+    align-content: center;
+    padding-bottom: 10px;
+}
+
+header nav {
+    align-self: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header nav a {
+    display: block;
+    border: 1px solid #3F784C;
+    padding: 10px;
+    color: #3F784C;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -64,8 +88,46 @@ p {
     position: relative;
 }
 
+.history {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1.5fr .5fr 1.5fr;
+    justify-content: space-evenly;
+    gap: .5rem;
+    padding-top: 150px;
+}
+
+.history h2 {
+    grid-column: span 3;
+    justify-self: center;
+  }
+  
+  .history p,
+  .history img {
+    margin: 0;
+  }
+
+.history img {
+    justify-self: center;
+    width: 200px;
+    height: 200px;
+}
+
+.adventure-pics {
+    display: grid;
+    width: 100%;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: .2fr .2fr .2fr .2fr .2fr;
+    justify-content: center;
+}
+
+.adventure-pics h2 {
+    grid-column: span 5;
+    justify-self: center;
+}
+
 .adventure-pics img {
-    height: 400px;
+    height: 200px;
     width: auto;
 }
 
