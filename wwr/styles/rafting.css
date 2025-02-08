@@ -179,7 +179,7 @@ footer a img {
   grid-auto-flow: column;
 }
 
-.company-info h2 {
+.company-info h1 {
   justify-self: center;
 }
 
@@ -201,7 +201,7 @@ footer a img {
   border-radius: 5px;
 }
 
-.our-employees h2 {
+.our-employees h1 {
   justify-self: center;
 }
 
@@ -219,7 +219,7 @@ footer a img {
   justify-self: center;
 }
 
-.message-us h2 {
+.message-us h1 {
   justify-self: center;
 }
 
