@@ -438,3 +438,7 @@ footer a img {
   font-family: var(--text-font);
   color: var(--secondary-color);
 }
+
+.subscribe {
+  margin-top: 30rem;
+}
