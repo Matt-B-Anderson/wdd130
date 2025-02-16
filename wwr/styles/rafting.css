@@ -66,6 +66,40 @@ p {
   position: absolute;
 }
 
+.hero div {
+  display: grid;
+  grid-auto-flow: row;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.hero div h1 {
+  text-align: center;
+  background-color: rgb(0 0 0);
+  width: 100%;
+  float: none;
+  position: relative;
+  border-radius: 5px;
+  padding: 1px;
+}
+
+.hero div h4 {
+  text-align: center;
+  background-color: rgb(0 0 0 / 75%);
+  color: var(--secondary-color);
+  border-radius: 5px;
+}
+
+.hero div button {
+  height: 40px;
+  width: 50%;
+  background-color: rgb(0 0 0 / 75%);
+  color: var(--secondary-color);
+  margin: auto;
+}
+
 .hero h1 {
   text-align: center;
   background-color: rgb(0 0 0);
@@ -260,4 +294,106 @@ footer a img {
   justify-self: start;
   align-self: center;
   border-radius: 5px;
+}
+
+.home-page {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  width: 100%;
+  position: static;
+  margin-top: 18rem;
+}
+
+.our-content {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-evenly;
+  width: 50rem;
+}
+
+.our-content figure {
+  display: grid;
+  gap: 5px;
+  grid-auto-flow: row;
+  width: 100%;
+  justify-content: center;
+}
+
+.our-content img {
+  width: 200px;
+  height: 200px;
+}
+
+.our-content figure i {
+  display: block;
+  width: 75px;
+  height: 75px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+}
+
+.icon-river {
+  background-image: url(../images/noun-river.svg);
+}
+
+.icon-camping {
+  background-image: url(../images/noun-camping.svg);
+}
+
+.icon-rafting {
+  background-image: url(../images/noun-rafting.svg);
+}
+
+.inspiration {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.inspiration .image {
+  position: relative;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.inspiration .image img {
+  width: 100%;
+}
+
+.inspiration .message {
+  display: grid;
+  grid-auto-flow: row;
+  justify-content: center;
+  position: absolute;
+  top: 35%;
+  left: 45%;
+  transform: translate(-10%, -20%);
+  background-color: rgb(0 0 0 / 90%);
+  padding: 1rem;
+  z-index: 2;
+  border-radius: 5px;
+  height: 50%;
+}
+
+.message h2 {
+  text-align: center;
+}
+
+.message p {
+  text-align: center;
+}
+
+.message button {
+  height: 40px;
+    width: 10%;
+    background-color: rgb(0 0 0 / 90%);
+    color: var(--secondary-color);
+    margin: auto;
 }
