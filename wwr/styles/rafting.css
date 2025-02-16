@@ -132,7 +132,7 @@ p {
   grid-template-columns: 1.5fr 0.5fr 1.5fr;
   justify-content: space-evenly;
   gap: 0.5rem;
-  padding-top: 200px;
+  padding-top: 100px;
 }
 
 .history h2 {
