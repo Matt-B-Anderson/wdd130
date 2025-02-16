@@ -301,8 +301,6 @@ footer a img {
   grid-auto-flow: column;
   justify-content: center;
   width: 100%;
-  position: static;
-  margin-top: 18rem;
 }
 
 .our-content {
@@ -400,4 +398,43 @@ footer a img {
     background-color: rgb(0 0 0 / 90%);
     color: var(--secondary-color);
     margin: auto;
+}
+
+.available-trips {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+}
+
+.trips-table {
+  border: 1px solid var(--accent2-color);
+  border-radius: 5px;
+  width: 80%;
+  margin: auto;
+}
+
+.trips-table caption {
+  background-color: rgb(0 0 0 / 90%);
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+  text-align: center;
+  width: 10%;
+  align-self: center;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.trips-table thead {
+  background-color: rgb(0 0 0 / 90%);
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.trips-table td {
+  text-align: center;
+  background-color: rgb(0 0 0 / 90%);
+  font-family: var(--text-font);
+  color: var(--secondary-color);
 }
