@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oarsome-Rafting</title>
+    <title>Oarsome-Rafting Home Page</title>
     <meta name="description" content="Oarsome Rafting home page">
     <meta name="author" content="Matthew Anderson">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,7 +31,7 @@
             <div class="greeting">
             <h1>Come Raft With Us</h1>
                 <h4>Your Fun on the Water Starts Here</h4>
-                <button>Plan Trip</button>
+                <button onclick="window.location.href='trips.html'">Plan Trip</button>
             </div>
         </div>
         <div class="home-page">
@@ -53,6 +53,27 @@
                 </figure>
             </div>
         </div>
+        <div>
+            <form class="message-us-form">
+                <div class="inputs">
+                    <span>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" />
+                    </span>
+                    <span>
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" />
+                    </span>
+                    <span>
+                        <input type="checkbox" name="subscribe-to-newsletter" id="subscribe-to-newsletter" />
+                        <label for="subscribe-to-newsletter">
+                            Subscribe to Newsletter
+                        </label>
+                    </span>
+                    <button type="submit" class="submit-btn">Subscribe</button>
+                </div>
+            </form>
+        </div>
         <div class="inspiration">
             <div class="image">
                 <img src="images/rafting58_600.webp" alt="">
@@ -60,7 +81,7 @@
             <div class="message">
                 <h2>Enjoy Nature with some Thrill</h2>
                 <p>Not only will you be able to face your fears on the water, you'll also get to see some breath taking views not possible in any other way. Hop in the raft and let the river and scenery melt your woes.</p>
-                <button>Raft With Us</button>
+                <button onclick="window.location.href='trips.html'">Raft With Us</button>
             </div>
         </div>
     </main>
@@ -79,10 +100,6 @@
         </a>
         <a href="www.instagram.com" class="solcial-media-link">
             <img src="images/instagram-icon.webp" alt="" />
-        </a>
-        <a href="https://app.moqups.com/WEgoO10t4GEI62MSgc662VGcz3YcaGfI/view/page/ad64222d5?ui=0"
-            class="solcial-media-link">
-            <img src="images/moqups_logo.webp" alt="" />
         </a>
     </footer>
 </body>

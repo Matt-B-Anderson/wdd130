@@ -316,7 +316,7 @@ footer a img {
   display: grid;
   gap: 5px;
   grid-auto-flow: row;
-  width: 100%;
+  width: auto;
   justify-content: center;
 }
 
@@ -351,16 +351,20 @@ footer a img {
   display: grid;
   grid-template-columns: 1fr 1fr;
   position: relative;
-  justify-content: space-around;
   align-items: center;
   width: 100%;
   margin-top: 2rem;
+  background-color: var(--accent2-color);
+  height: 100%;
+  padding: 30px;
 }
 
 .inspiration .image {
   position: relative;
   z-index: 1;
   border-radius: 5px;
+  left: 50px;
+  height: 100%;
 }
 
 .inspiration .image img {
